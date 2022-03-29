@@ -1,0 +1,542 @@
+.container {
+  height: 1000px;
+  width: 900px;
+  background: rgb(224, 37, 206);
+  background: linear-gradient(
+    0deg,
+    rgba(224, 37, 206, 1) 0%,
+    rgba(3, 56, 244, 1) 100%
+  );
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+}
+
+.header {
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+  width: 400px;
+  height: 980px;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.profession {
+  width: 200px;
+  font-weight: 700;
+}
+
+.navbar__description {
+  width: 130px;
+  height: 116px;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar__photo {
+  width: 110px;
+  height: 116px;
+  border-radius: 100px;
+}
+
+.navbar__photo:hover {
+  width: 150px;
+  height: 156px;
+}
+
+.sername {
+  font-weight: 400;
+}
+
+.name {
+  font-weight: 500;
+  color: white;
+}
+
+.profession {
+  font-weight: 700;
+  color: #cecaca;
+}
+
+/* content */
+
+.content {
+  padding-left: 30px;
+  margin-top: 20px;
+}
+
+.content__mail {
+  display: flex;
+  justify-content: space-around;
+  width: 340px;
+  height: 50px;
+
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+}
+.content__mail-gmail {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.content__mail2 {
+  display: inline;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.content__number {
+  width: 340px;
+  height: 50px;
+  display: flex;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 400;
+}
+.content__number-call {
+  margin-left: 20px;
+  width: 28px;
+  height: 28px;
+  margin-top: 11px;
+}
+
+.content__number2 {
+  display: inline;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+
+.content__gps {
+  margin-top: 10px;
+  width: 340px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.content__gps-location {
+  width: 28px;
+  height: 28px;
+  margin-top: 10px;
+  margin-left: 19px;
+}
+
+.content__gps2 {
+  display: inline;
+  width: 340px;
+  height: 50px;
+  margin-left: 32px;
+  margin-top: 12px;
+}
+
+/* footer */
+
+.footer {
+  width: 340px;
+  height: 250px;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  color: white;
+}
+
+.footer__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.footer__industry {
+  margin-top: -40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer__industry li {
+  padding-top: 5px;
+}
+
+/* intro */
+
+.intro {
+  width: 340px;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: 20px;
+
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  color: white;
+}
+
+.intro__languages {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+.intro__lang {
+  width: 200px;
+  margin-top: -40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+}
+.intro__lang li {
+  list-style-type: none;
+}
+
+.dun {
+  display: inline;
+  width: 10px;
+}
+.circle5 {
+  width: 76px;
+  height: 11.5px;
+}
+.rus {
+  display: inline;
+  width: 10px;
+}
+
+.circle2 {
+  width: 76px;
+  height: 11.5px;
+  margin-left: 11px;
+}
+
+.eng {
+  display: inline;
+  width: 10px;
+}
+
+.circle3 {
+  width: 76px;
+  height: 11.5px;
+  margin-left: 7px;
+}
+/* hoobies */
+
+.hobbies__logo-name {
+  width: 88px;
+  height: 32px;
+  margin-top: 10px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.hobbies__logo {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.hobbies__sport {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  width: 340px;
+  height: 45px;
+  margin-left: 30px;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.hobbies__comp2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.hoobies__basket2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.hoobies__valley2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.hoobies__ping2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.hobbies__book2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+/* features */
+
+.features {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 40px;
+  width: 400px;
+  height: 980px;
+
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.sidebar__info {
+  display: flex;
+  margin-right: 20px;
+}
+
+.sidebar__info-about {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 180px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #545454;
+  border-radius: 5px;
+}
+.sidebar__info-line {
+  width: 141px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1px solid #545454;
+  background-color: black;
+}
+
+.sidebar__name {
+  list-style-type: none;
+}
+
+.sidebar__name-sername {
+  font-weight: 700;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.sidebar__name-date {
+  margin-left: 30px;
+  margin-top: -25px;
+  color: #73808d;
+}
+
+.sidebar__name-bio {
+  width: 330px;
+  margin-left: 30px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* button */
+
+.button {
+  display: flex;
+  margin-right: 20px;
+}
+
+.button__btn {
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #545454;
+  border-radius: 5px;
+}
+
+.button__btn-line {
+  width: 160px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1.1px solid #545454;
+  background-color: black;
+}
+
+.button__education {
+  font-weight: 450;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* block */
+
+.block {
+  display: flex;
+  margin-right: 20px;
+}
+
+.block__skill {
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #545454;
+  border-radius: 5px;
+}
+
+.block__line {
+  width: 160px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1.1px solid #545454;
+  background-color: black;
+}
+
+.block__logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-left: 25px;
+  width: 400px;
+}
+
+.block__logo-spec {
+  width: 56px;
+  height: 56px;
+}
+
+.block__logo-spec:hover {
+  width: 86px;
+  height: 86px;
+}
+
+.block__logo-name {
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  width: 120px;
+}
+
+.block__logo-name2 {
+  font-weight: 600;
+  display: flex;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.block__logo-name3 {
+  font-weight: 600;
+  display: flex;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.block__logo-name5 {
+  font-weight: 600;
+  display: flex;
+  width: 120px;
+  margin-right: 20px;
+}
+
+.block__logo-phot4 {
+  margin-top: 34px;
+}
+
+.block__logo-phot5 {
+  margin-right: 120px;
+  margin-top: 30px;
+}
+
+/* desc */
+
+.desc {
+  display: flex;
+  margin-right: 20px;
+}
+
+.desc__name {
+  font-weight: 600;
+  color: white;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #545454;
+  border-radius: 5px;
+}
+
+.desc__line {
+  width: 160px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1.2px solid #545454;
+  background-color: black;
+}
+
+.desc__skill {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.desc-spec {
+  width: 56px;
+  height: 56px;
+}
+.desc-spec:hover {
+  width: 86px;
+  height: 86px;
+}
+
+.desc-name2 {
+  font-weight: 600;
+  display: flex;
+  width: 100px;
+}
